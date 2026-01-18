@@ -1,0 +1,11 @@
+@media (max-width: 768px){
+    #nav .row .nav_item, .subscribe{
+        display: none;
+    }
+    #nav .row {
+        justify-content: space-between;
+    }
+    #nav .row .responsive_bar{
+        display: block;
+    }
+}
