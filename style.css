@@ -153,3 +153,50 @@ body {
     justify-content: center;
     margin-right: 8px;
 }
+
+#podcast {
+    text-align: center;
+}
+
+#podcast .content {
+    margin: auto;
+}
+
+#podcast .container h3 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #fff;
+}
+
+#podcast .content p {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#podcast .service {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#podcast .service .item h6 {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+    color: #00ff88;
+    margin: 0;
+}
+#podcast .nothing{
+    border-top: 1px solid #fff;
+    margin: 80px 100px 60px;
+}
+
+#podcast .service .item p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+}

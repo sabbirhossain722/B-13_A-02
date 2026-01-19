@@ -16,6 +16,7 @@
 
     #banner .container {
         height: 200px;
+        display: none;
     }
 
     #banner .img {
@@ -30,5 +31,10 @@
     #banner .img span {
         top: 86px;
         right: -6px;
+    }
+
+    #podcast .service{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
