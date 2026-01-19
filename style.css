@@ -1,5 +1,6 @@
 body {
-    background: #412567;
+    /* background: #412567; */
+    background: #1A0B2E;
 }
 
 #nav {
@@ -12,7 +13,7 @@ body {
     justify-content: space-around;
 }
 
-#nav .row .responsive_bar{
+#nav .row .responsive_bar {
     display: none;
 }
 
@@ -63,4 +64,92 @@ body {
     align-items: center;
     justify-content: center;
     margin-left: 4px;
+}
+
+#banner {
+    text-align: center;
+}
+
+#banner .container {
+    margin-top: 20px;
+    background-image: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 760px;
+
+}
+
+#banner .img {
+    background-image: url(./assets/hero-circle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    width: 350px;
+    height: 350px;
+    margin-top: 100px;
+    position: relative;
+}
+
+#banner .img span {
+    position: absolute;
+    top: 45px;
+    right: 20px;
+    display: block;
+    border-radius: 1000px;
+    padding: 8px 16px;
+    box-shadow: 0 3px 27px 0 rgba(0, 255, 136, 0.5);
+    background: #00ff88;
+    font-weight: 600;
+    font-size: 18px;
+    color: #1a0b2e;
+}
+
+#banner .text h3 {
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    margin-top: 40px;
+}
+
+#banner .text p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+#banner .btn a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #00ff88;
+    border-radius: 10000px;
+    padding: 12px 20px;
+    margin-right: 10px;
+    margin-top: 24px;
+}
+
+#banner .btn a:hover {
+    background: linear-gradient(48deg, #f7e93f 0%, #fb09b4 51%, #9100f8 100%);
+    transform: scale(1.10);
+    transition: 0.2s;
+    border: none;
+}
+
+#banner .btn a span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
 }

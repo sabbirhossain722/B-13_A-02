@@ -1,11 +1,34 @@
-@media (max-width: 768px){
-    #nav .row .nav_item, .subscribe{
+@media (max-width: 768px) {
+
+    #nav .row .nav_item,
+    .subscribe {
         display: none;
     }
+
     #nav .row {
         justify-content: space-between;
     }
-    #nav .row .responsive_bar{
+
+    #nav .row .responsive_bar {
         display: block;
+    }
+
+
+    #banner .container {
+        height: 200px;
+    }
+
+    #banner .img {
+        width: 50%;
+        margin-top: 0px;
+    }
+
+    #banner .img img {
+        width: 40%;
+    }
+
+    #banner .img span {
+        top: 86px;
+        right: -6px;
     }
 }
