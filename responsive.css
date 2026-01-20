@@ -15,17 +15,15 @@
 
 
     #banner .container {
-        height: 200px;
-        display: none;
     }
 
     #banner .img {
-        width: 50%;
-        margin-top: 0px;
+        width: 40%;
+        margin-top: 50px;
     }
 
     #banner .img img {
-        width: 40%;
+        width: 30%;
     }
 
     #banner .img span {
@@ -104,9 +102,10 @@
         justify-content: center;
     }
 
-#footer{
-    margin-top: 50px;
-}
+    #footer {
+        margin-top: 50px;
+    }
+
     #footer .container {
         height: 100%;
         padding-bottom: 30px;
@@ -123,8 +122,6 @@
     }
 
     #footer .row .items {
-        display: flex;
-        align-items: center;
         margin-left: 40px;
     }
 
