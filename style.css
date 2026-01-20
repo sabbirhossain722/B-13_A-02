@@ -289,10 +289,19 @@ body {
     /* gap: 50px; */
     width: 380px;
     background: #250d44;
+    cursor: pointer;
 }
-#vdo_card .row .content{
+
+#vdo_card .row .card:hover {
+    transform: scale(1.08);
+    transition: 0.2s;
+    border: 1px solid #00ff88;
+}
+
+#vdo_card .row .content {
     padding: 24px;
 }
+
 #vdo_card .row .content h3 {
     font-weight: 700;
     font-size: 24px;
@@ -312,4 +321,55 @@ body {
     align-items: center;
     justify-content: center;
     margin-right: 6px;
+}
+#host{
+    display: flex;
+    justify-content: center;
+}
+#host h3 {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#host .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    padding: 40px;
+    border-radius: 40px;
+    background: #250d44;
+}
+#host .row .content{
+    margin-left: 40px;
+}
+#host .row .content h1 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+#host .row .content p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff6b;
+}
+
+#host .row .content .icons {
+    display: flex;
+    align-items: center;
+}
+
+#host .row .content .icons a {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    padding: 10px;
+    border: 1px solid #533C72;
+    border-radius: 100%;
+
 }
