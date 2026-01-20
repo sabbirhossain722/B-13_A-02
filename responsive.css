@@ -15,11 +15,15 @@
 
 
     #banner .container {
+        background-size: 100%;
+        /* position: absolute; */
+        z-index: -1;
     }
-
+    
     #banner .img {
+        z-index: 1;
         width: 40%;
-        margin-top: 50px;
+        margin-top: 160px;
     }
 
     #banner .img img {
@@ -109,6 +113,7 @@
     #footer .container {
         height: 100%;
         padding-bottom: 30px;
+        background-size:  auto;
     }
 
     #footer .img img {
